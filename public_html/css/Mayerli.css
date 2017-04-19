@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*{
+    margin: 0 auto;
+    padding:0
+}
+@font-face {
+    font-family: "Kimberley";
+    src: url(/fonts/kimberley.ttf) format("truetype");
+}
+#caja{
+    width: 70%;
+    height: 50%;
+   background-attachment: fixed;
+}
+h1{
+    color: #33ff66;
+    font-size: 3em;
+    font-family: kimberley;
+}
+img{
+     width:100%;
+     background-attachment: fixed;
+}
+
+
+body{
+  font-family: "Open Sans",  Impact;
+  background-image: url("imagenes/fondo.png");
+  background:white;
+  margin:50px;
+  background: #deebf2 url(http://www.midominio.com/images/textura.jpg) repeat;
+}
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color: #ff99ff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,0px 0px 7px #fff;
+  background: black;
+  text-align: center;
+  font-family: fantasy;
+}@keyframes blur{
+  from{
+      text-shadow: 0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: $stroke-step * $max;  
+    stroke-dasharray: 0 $stroke-step * $max*2.5;
+  }
+}
+
+@media only screen and ( max-width: 1024px ) {
+    #caja{
+        background: #3333ff;
+        
+    }
+}
+  
+@media only screen and ( max-width: 768px ) {	
+    #caja{
+        background: #cc33ff;
+    }
+    h1{
+        font-family: arial;
+        font-size: 2em;
+    }
+}
+  
+@media only screen and ( max-width: 480px ) {	
+    #caja{
+        background: #ff66cc;
+    }
+    h1{
+        font-family: sans-serif;
+        font-size: 1em;
+    }
+}
+  
+@media only screen and ( max-width: 320px ) {	
+    #caja{
+        background: #990099;
+    }
+    h1{
+        font-family: arial;
+        font-size: 0.5em;
+    }
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 40%;
+height: 40%;
+}
