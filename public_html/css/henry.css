@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background: #4E94AB;
+    
+}
+#btn-menu{
+  display: none;
+}
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  
+}
+.menu li{
+    border-right: 1px solid #fff;
+}
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color:background;
+    text-decoration: none;
+    
+}
+main{
+    padding: 20px;
+}
+.one-colum{
+    width: 50%;
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+}
+
+@media (max-width:768px){
+    header label{
+        display: block;
+            
+    }
+    .menu{
+        position: absolute;
+        background: #4E94AB;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
