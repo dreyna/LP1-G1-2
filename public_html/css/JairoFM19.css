@@ -1,0 +1,26 @@
+* {
+    marging: 0 auto; 
+    
+
+}
+body{
+    background-image: url('../imagenes/fondo2.jpg') ;
+}
+#cabecera {
+	    padding: 20px;
+	    background: #ff9900;
+	    background-size: 50%;}
+    #blog {
+	    padding: 44px;
+	    background: #f8f8f8;
+	    background-size: 50%;
+	    border-radius: 22px;
+    }
+ 
+    .comentario {
+	    margin-top: 10px;
+	    padding: 44px;
+	    background: #99CC00;
+	    width: 600px;
+	    border-radius: 22px;
+  }
