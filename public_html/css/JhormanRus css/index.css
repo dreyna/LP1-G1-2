@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+@font-face{
+    font-family: BadScript-Regular;
+    src: url(../fonts/JhormanRus fonts/BadScript-Regular.ttf);
+}
+body {
+    height: 100%;
+    margin: 0px;
+}
+#contenedor {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+}
+#menu {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    margin-top: 0px;
+    background-color: #017AB3;
+    width: 30%;
+}
+#hola{
+    margin: 0;
+    font-family: BadScript-Regular;
+
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
