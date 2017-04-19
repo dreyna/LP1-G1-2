@@ -1,0 +1,141 @@
+#masthead {
+  position: relative;
+}
+@font-face
+{
+   font-family: "Cristalab";
+   src: url("fuentefancy.eot");
+   src: url("fuentefancy.eot?#amocristalab") format("embedded-opentype"),
+        url("fuentefancy.woff") format("woff"),
+        url("fuentefancy.ttf") format("truetype"),
+        url("fuentefancy.svg#IDdelafuente") format("svg");
+}
+.top-panel {
+  background: #ccffcc;
+  width: 100%;
+  height: 50px;
+  min-width: 400px;
+}
+.top-panel-container {
+  width: 70%;
+  height: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  max-width: 1000px;
+}
+.icono {
+  width: 25px;
+  height: 25px;
+}
+.sociales {
+  width: 120px;
+  height: 27px;
+  float: left;
+}
+@media (max-width: 700px) {
+  .top-panel {
+    background: #2ebaeb;
+    width: 100%;
+    height: 100px;
+  }
+  .top-panel-container {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+  }
+  .sociales {
+    width: auto;
+    height: auto;
+    margin: 15%;
+  }
+  .numero {
+    width: auto;
+    height: auto;
+    margin: 15%;
+  }
+  .container-into-nav {
+    display: none;
+  }
+}
+.numero {
+  width: 120px;
+  height: 27px;
+  float: right;
+}
+.header-container {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+.header-container-into {
+  width: 70%;
+  height: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.container-into {
+  float: left;
+}
+.logo-empresa {
+  width: 200px;
+  height: 100px;
+}
+.container-into-nav {
+  float: right;
+  margin-top: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+nav ul > li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+nav ul li a {
+  color: #000;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+/*Transiciones*/
+  -webkit-transition: 0.4s linear all;
+  -moz-transition: 0.4s linear all;
+  -o-transition: 0.4s linear all;
+  transition: 0.4s linear all;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  color: #129898;
+  border-top: 5px solid #129898;
+}
+.submenu li a {
+  display: none;
+}
+.temafondo {
+  width: 100%;
+  height: 800px;
+}
+.tema {
+  position: absolute;
+}
+#z1 {
+  z-index: 1;
+}
+#z2 {
+  z-index: 2;
+  margin: 15% 0 0 25%;
+}
+.text1 {
+  font-size: 200;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fcfcfc;
+}
