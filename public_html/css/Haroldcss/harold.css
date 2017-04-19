@@ -64,7 +64,7 @@ nav{
     text-decoration: none;
     font-size: 30px;
     padding: 12px;
-    color: black;
+    color: white;
     
 }
 
@@ -85,6 +85,7 @@ i{
     font-family: FontSatisfy;
     padding:20px;
     font-size: 20px;
+    width: 50%;
 }
 
 .title{
