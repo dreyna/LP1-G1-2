@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(../../imagenes/rolin/monte.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+header
+{
+    width: 100%;
+    height: 100px;
+    background: #006699;
+
+}
+.ancho
+{
+    width: 80%;
+    height: 100px;
+    background: #006699;
+    margin: auto;
+}
+.logoo
+{
+    width:30%;
+    height: 100px;
+    font-weight: bold;
+    /*  background: #33ff66;*/
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logoo p a 
+{
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+nav{
+    width: 70%;
+    height: 100px;
+    background: #006699;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul li a :hover
+{
+    color: #999999;
+}
+form
+{
+    width: 450px; 
+    height: auto;
+    background: #009999;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 9px;
+}
+
+input, textarea
+{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+
+}
+
+.cabeza
+{
+    background: #ffffff;
+    color: #009999;
+    text-align: center;
+    border: 4px solid #333333;
+}
+
+#boton01
+{
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#boton2
+{
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+.slider{ 
+    width:95%;
+    margin:auto;
+    overflow: hidden;
+}
+.slider ul{
+    display:flex;
+    padding:0;
+    margin:0;
+    width:420%;
+    animation:cambio 20s infinite alternate;
+    animation-timing-function:ease-in}
+
+.slider li{
+    width:100%;
+
+    list-style:none
+}
+.slider img{
+    margin-top: 50px;
+    width:90%}
+
+
+center{
+    background:#ff0;
+    color:#ffa500}
+
+@-moz-keyframes cambio{
+    0%{margin-left:0}
+    20%{margin-left:0}
+    25%{margin-left:-100%}
+    45%{margin-left:-100%}
+    50%{margin-left:-200%}
+    70%{margin-left:-200%}
+    75%{-left:-300%}
+    100%{margin-left:-300%}}
+
+    @-webkit-keyframes cambio{
+        0%{margin-left:0}
+        20%{margin-left:0}
+        25%{margin-left:-100%}
+        45%{margin-left:-100%}
+        50%{margin-left:-200%}
+        70%{margin-left:-200%}
+        75%{-left:-300%}
+        100%{margin-left:-300%}}
+
+
