@@ -1,0 +1,85 @@
+*{
+    margin: auto 0;
+}
+#container{
+    width: 70%;
+    height: auto;
+}
+header{
+    width: 60%;
+    height: 100px;
+    color: white;
+    padding: 20px;
+}
+.button{
+    float: right;
+    width: 50%;
+    height: 60px;
+    background: #cc0033;
+    border-radius: 1px;
+    border: 1px solid #000000;
+    border-radius: 50px 0 50px 0;
+}
+body{
+background: url(../imagenes/fondo.jpeg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.let1{
+    color: red;
+    font-family:Arial Narrow;
+    font-size: 400%;
+    font-style: normal;
+    text-shadow: 3px 3px 5px yellow;
+}
+.let2{
+   font-family:Arial Narrow;
+    font-size: 400%;
+    font-style:  oblique; 
+    text-shadow: 5px 5px 0px blue;
+}
+.caja{
+    width: 100%;
+    height: 200px;
+    background: #cc0000;
+    border: 1px solid #000000;
+}
+@media only screen and ( max-width: 1024px ) {
+    background: url(../imagenes/amor.jpg);
+      
+}
+  
+@media only screen and ( max-width: 768px ) {	
+background: url(../imagenes/noche.jpg) no-repeat center center fixed;
+}
+  
+@media only screen and ( max-width: 480px ) {	
+background: url(../imagenes/noche.jpg) no-repeat center center fixed;
+}
+  
+@media only screen and ( max-width: 320px ) {	
+
+   background: url(../imagenes/noche.jpg) no-repeat center center fixed;
+
+}
+img {
+    width:30%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 60%;
+}
+
+
